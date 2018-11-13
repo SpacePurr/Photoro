@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="rootStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+           prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/photoro.css" xmlns="http://javafx.com/javafx/8"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="spacepurr.com.vk.photoro.WebcamSceneController">
+    <ImageView fx:id="webCamView" fitHeight="500.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true"
+               StackPane.alignment="CENTER">
+        <viewport>
+            <Rectangle2D/>
+        </viewport>
+    </ImageView>
+    <Button fx:id="button" mnemonicParsing="false" onAction="#startWebCam" prefHeight="400.0" prefWidth="625.0"
+            stylesheets="@../css/button.css" text="WebCam" StackPane.alignment="BOTTOM_CENTER">
+        <StackPane.margin>
+            <Insets/>
+        </StackPane.margin>
+    </Button>
+    <Button mnemonicParsing="false" onAction="#toPassportPhoto" prefHeight="432.0" prefWidth="60.0"
+            stylesheets="@../css/sideButton.css" text="Back" StackPane.alignment="TOP_LEFT">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </Button>
+    <Button mnemonicParsing="false" onAction="#toStatsScreen" prefHeight="408.0" prefWidth="60.0"
+            stylesheets="@../css/sideButton.css" text="Next" StackPane.alignment="TOP_RIGHT">
+        <font>
+            <Font size="16.0"/>
+        </font>
+    </Button>
+</StackPane>

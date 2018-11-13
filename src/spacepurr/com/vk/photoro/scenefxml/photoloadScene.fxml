@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="rootStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+           prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/photoro.css" xmlns="http://javafx.com/javafx/8"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="spacepurr.com.vk.photoro.PhotoloadSceneController">
+    <children>
+        <ImageView fx:id="blur" fitHeight="827.0" fitWidth="1074.0" pickOnBounds="true" preserveRatio="true">
+            <effect>
+                <GaussianBlur radius="11.72"/>
+            </effect>
+        </ImageView>
+        <ImageView fx:id="imageView" fitHeight="350.0" fitWidth="440.0" pickOnBounds="true" preserveRatio="true"
+                   StackPane.alignment="CENTER"/>
+        <Button fx:id="button" mnemonicParsing="false" onAction="#openImage" prefHeight="400.0" prefWidth="730.0"
+                stylesheets="@../css/button.css" text="Open Image" StackPane.alignment="CENTER">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button alignment="CENTER" mnemonicParsing="false" onAction="#toWebCamScreen" prefHeight="410.0"
+                prefWidth="56.0" stylesheets="@../css/sideButton.css" text="Next" StackPane.alignment="TOP_RIGHT">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button mnemonicParsing="false" onAction="#toStartScene" prefHeight="410.0" prefWidth="55.0"
+                stylesheets="@../css/sideButton.css" text="Back" StackPane.alignment="TOP_LEFT">
+            <font>
+                <Font size="16.0"/>
+            </font>
+        </Button>
+        <Button fx:id="arrowLeft" mnemonicParsing="false" onAction="#turnLeft" prefHeight="45.0" prefWidth="45.0"
+                rotate="10.0" stylesheets="@../css/arrow.css" textFill="TRANSPARENT">
+            <StackPane.margin>
+                <Insets left="400.0" top="300.0"/>
+            </StackPane.margin>
+        </Button>
+        <Button fx:id="arrowRight" mnemonicParsing="false" onAction="#turnRight" prefHeight="45.0" prefWidth="45.0"
+                rotate="-10.0" stylesheets="@../css/arrow.css" textFill="TRANSPARENT">
+            <StackPane.margin>
+                <Insets right="400.0" top="300.0"/>
+            </StackPane.margin>
+        </Button>
+    </children>
+</StackPane>

@@ -1,0 +1,18 @@
+.root  {
+
+-fx-background-image: url("background_image.jpg");
+    -fx-background-size: cover;
+    }
+.button  {
+-fx-background-color: #242424;
+-fx-text-fill: white;
+-fx-background-radius: 0;
+}
+
+.button: focused  {
+-fx-focus-color: transparent;
+}
+
+.button: pressed  {
+-fx-effect: innershadow(gaussian, rgba(0,0,0,1), 8,0,0,1);
+}

@@ -1,0 +1,18 @@
+.button  {
+
+
+-fx-background-color: rgba(26, 23, 23, 0.1);
+-fx-background-radius: 0;
+
+-fx-text-fill: white;
+}
+
+.button:hover  {
+-fx-background-color: rgba(26, 23, 23, 0.5);
+
+}
+
+.button:pressed  {
+-fx-effect: dropshadow(gaussian, rgba(26,23,23,0.8), 8,0,0,1);
+}
+

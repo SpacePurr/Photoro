@@ -1,0 +1,6 @@
+.button{
+-fx-background-color: transparent;
+}
+.button:pressed{
+-fx-effect: dropshadow(gaussian, rgba(26,23,23,0.8), 8,0,0,1);
+}
