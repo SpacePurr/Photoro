@@ -14,4 +14,11 @@ Test. MTS IT.
 /../lib/x64/opencv_java400.dll  
 /../left.png  
 /../right.png  
-
+  
+Для компилирования потребуются библиотеки
+1. [OpenCV 4.0.0-beta](https://opencv.org/releases.html)  
+Добавить в IntelliJ библиотеку /opencv/build/java/opencv-400.jar  
+Добавить Native Library /opencv/build/java/x64/opencv_400.dll
+2. [Apache HttpClient 4.5.6](https://hc.apache.org/downloads.cgi) Binary: zip  
+Распаковать. Добавить все jar /httpcomponents-client-4.5.6/lib/  
+  
