@@ -22,3 +22,4 @@ Test. MTS IT.
 2. [Apache HttpClient 4.5.6](https://hc.apache.org/downloads.cgi) Binary: zip  
 Распаковать. Добавить все jar /httpcomponents-client-4.5.6/lib/  
   
+Менять subscription key для работы Microsoft Face Api не обязательно.
