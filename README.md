@@ -10,7 +10,7 @@ Test. MTS IT.
 Обнаружение и сравнение лиц на фото реализовано с помощью Microsoft Face Api.
 
 Скомпилированный проект должен содержат следующие файлы:
-/n /../PhotoroApp.jar
+/../PhotoroApp.jar
 /../lib/x64/opencv_java400.dll
 /../left.png
 /../right.png
